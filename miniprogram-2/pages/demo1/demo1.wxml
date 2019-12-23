@@ -1,0 +1,6 @@
+<!--pages/demo1/demo1.wxml-->
+<!-- <text>这是demo1</text> -->
+<image src="{{myImg}}" mode="aspectFill"></image>
+<button type="primary" size="mini" bindtap="click" id="0">img1</button>
+<button type="primary" size="mini" bindtap="click" id="1">img2</button>
+<button type="primary" size="mini" bindtap="click" id="2">img3</button>

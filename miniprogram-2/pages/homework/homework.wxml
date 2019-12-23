@@ -1,0 +1,27 @@
+<!--pages/homework/homework.wxml-->
+<view class="wrap">
+  <view class="title">你已经获胜
+    <text class="winCount">{{winCount}}</text>次</view>
+  <!-- 局面 -->
+  <view class="gameSit">
+    <!-- 系统出拳 -->
+    <image src="{{autoShow}}" mode="aspectFill"></image>
+    <view class="result">{{result}}</view>
+    <!-- <view class="result" wx:if="{{condition}}">您赢了</view>
+    <view class="result" >平局了</view> -->
+    <!-- 我的出拳 -->
+    <image src="{{myShow}}" mode="aspectFill"></image>
+  </view>
+  <!-- 我的界面 -->
+  <view class="myView">
+    <text class="slogan">出拳吧,骚年!</text>
+    <view class="myselect">
+      <image src="/img/bu.png" mode="aspectFill" bindtap="choose" id="0"></image>
+      <image src="/img/shitou.png" mode="aspectFill" bindtap="choose" id="1"></image>
+      <image src="/img/jiandao.png" mode="aspectFill" bindtap="choose" id="2"></image>
+    </view>
+    <view class="button" bindtap="onceAgain">再来一次</view>
+    <view class="button" bindtap="reset">重置</view>
+  </view>
+
+</view>

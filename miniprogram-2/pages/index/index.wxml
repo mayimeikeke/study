@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <text>{{thing}}</text>
+  <icon type="clear" size="40" color="orange" bindtap="clear" />
+
+  <button type="primary" bindtap="btn">点击一下就知道</button>
+  <view class="outer" catchtap="outer">outer
+    <view class="middle" bindtap="middle">middle
+      <view class="inner" catchtap="inner">inner</view>
+    </view>
+  </view>
+</view> -->
+<navigator url="/pages/demo1/demo1?id=haha&age=14">navigate去demo1</navigator>
+<navigator url="/pages/logs/logs" open-type="redirect">redirect去logs</navigator>
+<navigator url="/pages/logs/logs" open-type="switchTab">switchTab去logs</navigator>

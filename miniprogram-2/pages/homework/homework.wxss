@@ -1,0 +1,73 @@
+/* pages/homework/homework.wxss */
+.wrap{
+  height: 100vh;
+  width: 100%;
+  background: #fbe738;
+}
+.title{
+  text-align: center;
+  font: 40rpx/130rpx "微软雅黑"
+}
+
+.winCount{
+  color: red
+}
+
+.gameSit{
+  margin:20rpx 0 0 98rpx; 
+  height: 200rpx;
+  width: 555rpx;
+}
+
+.gameSit image{
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.result{
+  display: inline-block;
+  color: red;
+  height: 200rpx;
+  width: 153rpx;
+  font: 40rpx/200rpx "微软雅黑";
+  text-align: center;
+  vertical-align: top;
+}
+
+.myView{
+  text-align: center;
+  margin:60rpx 0 0 38rpx;
+  width: 675rpx;
+  height: 756rpx;
+  background: #fff;
+  overflow: hidden;
+}
+
+.slogan{
+  font: 30rpx/122rpx "微软雅黑";
+  display: inline-block;
+}
+
+.myselect{
+  display: flex;
+  margin:8rpx 0 80rpx 60rpx;
+  justify-content: space-between;
+  width: 552rpx;
+  height: 180rpx;
+}
+
+.myselect image{
+  width: 170rpx;
+  height: 170rpx;
+  border-radius: 50%;
+}
+
+.button{
+  width: 535rpx;
+  height: 88rpx;
+  background: #fbe738;
+  border-radius: 10rpx;
+  margin: 0 auto 64rpx;
+  font: 36rpx/88rpx "微软雅黑";
+}
+

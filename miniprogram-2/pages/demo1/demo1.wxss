@@ -1,0 +1,6 @@
+/* pages/demo1/demo1.wxss */
+image{
+  width: 500rpx;
+  height: 300rpx;
+
+}
